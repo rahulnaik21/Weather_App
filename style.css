@@ -1,0 +1,88 @@
+/* Fullscreen background with gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+   background: linear-gradient(135deg, #f6d365, #fda085);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Background animation */
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* Main container with glass effect */
+.container {
+background: rgba(255, 248, 240, 0.85); 
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 380px;
+    max-width: 90%;
+    color: rgb(22, 21, 21);
+}
+
+/* Title */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Input box */
+input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+/* Weather Result Box */
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Weather info with emoji/icons */
+.weather-info {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
