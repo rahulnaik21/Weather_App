@@ -34,8 +34,9 @@ cd weather-dashboard
 
 2. Open the project
 
-Simply open the index.html file in any web browser.
-💡 You can also serve it locally using VS Code’s Live Server extension or any simple HTTP server.
+Simply open  any web browser.
+https://rahulnaik21.github.io/Weather_App/
+
 
 
 3. Add your API Key
