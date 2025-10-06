@@ -28,7 +28,7 @@ It displays key weather information such as temperature, humidity, weather condi
 
 ## 🛠️ Setup Instructions
  1. Clone the repository
-git clone https://github.com/your-username/weather-dashboard.git
+git clone https://github.com/rahulnaik21/Weather_App.git
 cd weather-dashboard
 
 
